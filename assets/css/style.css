@@ -1,0 +1,67 @@
+.header {
+	background-color: #87CEFA;
+	margin:0 auto;
+}
+.clear-fix {
+	overflow: hidden;
+	padding: 10px;
+}
+.center {
+	margin: auto;
+	width: 40em;
+}
+.name {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+.name img {
+	border: 1px solid black;
+	border-radius: 180px;
+	width: 50%;
+	height: 50%;
+}
+.skills {
+	font-size: 0.9em;
+	float: right;
+	width: 50%;
+}
+.story,.contact {
+	margin: 4px auto;
+	width: 80%;
+}
+article {
+	border: 2px solid #ffeeff;
+	box-shadow: 5px 5px 10px #eee;
+	padding: 20px;
+	margin: 2px auto;
+}
+
+input[type="email"],input[type="text"],textarea,input[type="submit"] {
+	width: 50%;
+	padding: 12px 10px;
+	margin-top: 5px;
+}
+h4,h5 {
+	line-height: auto;
+}
+/*to button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

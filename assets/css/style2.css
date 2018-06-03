@@ -1,0 +1,33 @@
+.clear-fix {
+	margin: 0 auto;
+	background-color: yellow;
+	overflow: hidden;
+	padding: 10px;
+}
+.name {
+	background-color: red;
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+.skills {
+	background-color: blue;
+	width: 50%;
+	float: right;
+}
+img {
+	border: 2px solid black;
+	border-radius: 120px;
+	width: 30%;
+	height: 30%;
+}
+.name ul {
+	/*line-height: 50px;*/
+	vertical-align: top;
+	width: 30%;
+	float: left;
+	list-style-type: none;
+}
+.skills ul li {
+	list-style: none;
+}
